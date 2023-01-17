@@ -28,7 +28,7 @@ Once you have installed the program, open it and you will see a screen similar t
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1064728748114587758/image.png)
 
 ## Remote Connection
-Before taking any of these steps, if you have Windows, you must first install Git for Windows, which is necessary for what we will do later on. It can be found on this [link](https://gitforwindows.org/), just click the Download button and install it onto your computer. Upon installation, you might run into numerous steps that ask for a number of options for the program. The only one you should worry about is this 
+Before taking any of these steps, if you have Windows, you must first install Git for Windows, which is necessary for what we will do later on. It can be found on this [link](https://gitforwindows.org/), just click the Download button and install it onto your computer. Upon installation, you might run into numerous steps that ask for a number of options for the program. The only one you should worry about is this.
 
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1064734246431899668/image.png).
 
@@ -74,3 +74,5 @@ In this image, you can see some of these commands I have tried on my own termina
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1064754488050733126/image.png)
 
 If you want to exit or end your terminal connection, just input "exit" or click the Ctrl + D keys.
+
+Congratulations! You have made it all the way here and I wish you the best of luck for the rest of your CS career. You will need it.
