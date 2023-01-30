@@ -80,3 +80,4 @@ These are just a few of the numerous commands you can perform in your terminal.
 If you want to exit or end your terminal connection, just input "exit" or click the Ctrl + D keys.
 
 Congratulations! You have made it all the way here and I wish you the best of luck for the rest of your CS career. You will need it.
+
