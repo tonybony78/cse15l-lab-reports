@@ -73,6 +73,10 @@ In this image, you can see some of these commands I have tried on my own termina
 
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1064754488050733126/image.png)
 
+To understand what some of the commands above output, here is a basic description. The second command I inputted, *pwd*, printed the working directory I was currently in. There, you can see that I was inside the user directory of the terminal that I was connected to in the CSE Basement. After that, I inputted *cat (previous paths)/hello.txt*, which printed out the contents of the file hello.txt. The *cat* command is short for concatenate, which if you are familiar with strings in coding, means to join strings, or characters. By inputting it and any file after, you can print the file's contents. Finally, the one after *cat* is the command *ls*, which if joined with a file/folder path after, prints a list of the file/folder's contents. 
+
+These are just a few of the numerous commands you can perform in your terminal.
+
 If you want to exit or end your terminal connection, just input "exit" or click the Ctrl + D keys.
 
 Congratulations! You have made it all the way here and I wish you the best of luck for the rest of your CS career. You will need it.
