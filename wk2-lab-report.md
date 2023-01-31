@@ -20,15 +20,15 @@ For this section, I will be focusing the *reverseInPlace* method from our lab, a
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1069828993722888242/image.png)
 
 Failure-Inducing Input:
-
-`int[] input2 = {25, 75, 125};`
-`assertArrayEquals(new int[]{125, 75, 25}, input2);`
-
+```
+int[] input2 = {25, 75, 125};
+assertArrayEquals(new int[]{125, 75, 25}, input2);
+```
 Non-Failure-Inducing Input:
-
-`int[] input1 = { 3 };`
-`assertArrayEquals(new int[]{ 3 }, input1);`
-
+```
+int[] input1 = { 3 };
+assertArrayEquals(new int[]{ 3 }, input1);
+```
 Symptom:
 
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1069830909886468127/image.png)
@@ -36,31 +36,36 @@ Symptom:
 Bug:
 
 Before - 
-
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
-`
+```
 
 After -
-
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     int[] arrCopy = arr.clone();
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arrCopy[arrCopy.length - i - 1];
     }
-  }`
+  }
+```
 
 Fix Reasoning:
 The bug that occurs in the before code is that the reverseInPlace method is able to reverse the first half of the data set, but once it gets to the second half, it reverses the first half once more, due to a lack of values to change to. This can be seen in the line:
-`arr[i] = arr[arr.length - i - 1];`
+```
+arr[i] = arr[arr.length - i - 1];
+```
 However, by making a copy of the input array and overwriting the original array's values with those from the copy, as shown in the lines below, there is no complication in overwriting any of the values.
-`int[] arrCopy = arr.clone();
+```
+int[] arrCopy = arr.clone();
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arrCopy[arrCopy.length - i - 1];
-    }`
+    }
+```
 
 ## Part 3
 After completing the past two labs, I can confidently say that I have learned how to diagnose bugs and symptoms in my code much better than I did before. By absorbing the articles from the Week 3 Readings, especially Regehr's well-articulated step-by-step article, I have learned new approaches as well as a new mindset for encountering issues in my programs. Additionally, I also learned how to manuever through JUnit and utilize it to my advantage for testing my code.
