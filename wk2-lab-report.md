@@ -69,4 +69,4 @@ int[] arrCopy = arr.clone();
 ```
 
 ## Part 3
-After completing the past two labs, I can confidently say that I have learned how to diagnose bugs and symptoms in my code much better than I did before. By absorbing the articles from the Week 3 Readings, especially Regehr's well-articulated step-by-step article, I have learned new approaches as well as a new mindset for encountering issues in my programs. Additionally, I also learned how to manuever through JUnit and utilize it to my advantage for testing my code.
+After completing the past two labs, I can confidently say that I have learned how to diagnose bugs and symptoms in my code much better than I did before. By absorbing the articles from the Week 3 Readings, especially Regehr's well-articulated step-by-step article, I have learned new approaches as well as a new mindset for encountering issues in my programs. Additionally, I learned how to manuever through JUnit and utilize it to my advantage for testing my code.
