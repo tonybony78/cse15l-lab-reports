@@ -55,6 +55,7 @@ static void reverseInPlace(int[] arr) {
 ```
 
 Fix Reasoning:
+
 The bug that occurs in the before code is that the reverseInPlace method is able to reverse the first half of the data set, but once it gets to the second half, it reverses the first half once more, due to a lack of values to change to. This can be seen in the line:
 ```
 arr[i] = arr[arr.length - i - 1];
