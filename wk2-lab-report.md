@@ -1,6 +1,6 @@
 # Week 2 Lab Report
 ## Part 1
-Here are the screenshots of my code the use of /add-message.
+Here are the screenshots of my code and the use of /add-message.
 
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1069812943027453952/image.png)
 
