@@ -2,7 +2,7 @@
 
 ## Understanding the *grep* Command
 
-To preface, the commands I explain in this report all come from what I learned on this [Geeks for Geeks article.](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) and our [Week 4 Lab.](https://ucsd-cse15l-w23.github.io/week/week4/#counting-sizes-of-text-files)
+To preface, the commands I explain in this report all come from what I learned on this [Geeks for Geeks article](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) and our [Week 4 Lab.](https://ucsd-cse15l-w23.github.io/week/week4/#counting-sizes-of-text-files)
 
 ### -l Command
 
