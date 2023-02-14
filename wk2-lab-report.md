@@ -2,7 +2,7 @@
 ## Part 1
 Here are the screenshots of my code and the use of /add-message.
 
-![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1069812943027453952/image.png)
+![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1074914702586548354/image.png)
 
 ![Image](https://cdn.discordapp.com/attachments/1064716019156930640/1069813019321835530/image.png)
 
@@ -22,11 +22,13 @@ For this section, I will be focusing the *reverseInPlace* method from our lab, a
 Failure-Inducing Input:
 ```
 int[] input2 = {25, 75, 125};
+ArrayExamples.reverseInPlace(input2);
 assertArrayEquals(new int[]{125, 75, 25}, input2);
 ```
 Non-Failure-Inducing Input:
 ```
 int[] input1 = { 3 };
+ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{ 3 }, input1);
 ```
 Symptom:
