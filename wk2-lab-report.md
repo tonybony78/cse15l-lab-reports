@@ -22,7 +22,6 @@ For this section, I will be focusing the *reverseInPlace* method from our lab, a
 Failure-Inducing Input:
 ```
 int[] input2 = {25, 75, 125};
-
 assertArrayEquals(new int[]{125, 75, 25}, ArrayExamples.reverseInPlace(input2));
 ```
 Non-Failure-Inducing Input:
