@@ -63,7 +63,7 @@ travel_guides/berlitz2/Poland-History.txt
 travel_guides/berlitz2/Poland-WhatToDo.txt
 ```
 
-Looking at this block, I combined the three commands I have explained in order to recursively search through the *travel_guides* directory to see which files contain the string "Poland." As a result, the names of each file that do contain the string are returned.
+Looking at this block, I combined the three commands I have explained in order to recursively search through the *travel_guides* directory to see which files contain the whole string "Poland." As a result, the names of each file that do contain the string are returned.
 
 ### -n Command
 
