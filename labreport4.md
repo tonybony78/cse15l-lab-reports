@@ -48,5 +48,7 @@ By performing these commands, I am able to edit the text inside ListExamples.jav
    
  "git push" <enter>
   
+  Because the tests passed completely after the text change, I add the ListExamples.java change to staging, commit the change, and push it to my repository.
+  
   ![img](https://cdn.discordapp.com/attachments/1064716019156930640/1079290181586268270/image.png)
    
