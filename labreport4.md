@@ -1,6 +1,6 @@
 ## Lab Report 4
 
-git clone <Ctrl+V> -> (https://github.com/tonybony78/lab7.git) <enter>
+git clone <Ctrl+V> -> (git@github.com:tonybony78/lab7.git) <enter>
 
 The link is copied from my repository on GitHub and pasted to complete the first step.
 
@@ -47,3 +47,6 @@ By performing these commands, I am able to edit the text inside ListExamples.jav
  "git commit -m "Updated"" <enter>
    
  "git push" <enter>
+  
+  ![img](https://cdn.discordapp.com/attachments/1064716019156930640/1079290181586268270/image.png)
+   
