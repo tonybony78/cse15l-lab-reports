@@ -1,10 +1,10 @@
 ## Lab Report 4
 
-git clone <Ctrl+V> -> (git@github.com:tonybony78/lab7.git) <enter>
+git clone <<Ctrl+V>> -> (git@github.com:tonybony78/lab7.git) <<enter>>
 
 The link is copied from my repository on GitHub and pasted to complete the first step.
 
-cd l<tab> -> autocompletes to "lab7/" <enter>
+cd l<<tab>> -> autocompletes to "lab7/" <<enter>>
   
 <Ctrl + V> -> (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) <enter>
  
