@@ -17,7 +17,7 @@ The link is copied from my repository on GitHub and pasted to complete the first
 The command is copied from Week 3 on the CSE 15L website and compiles all the .java files in the current directory.
 
 ``` <Ctrl + V> -> (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore) <space> 
-"Lis"<tab> ```-> autocompletes to "ListExamples." ``` <space> "java" <enter> ``` 
+"Lis"<tab> ``` -> autocompletes to "ListExamples."  ``` <space> "java" <enter> 
 ```
  
 This command runs the ListExamples.java file.
