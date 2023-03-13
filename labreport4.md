@@ -2,7 +2,7 @@
 
 To start things off, first I log into *ieng6* by typing
 
-``` ssh cs15lwi23awoieng6.ucsd.edu ```
+``` ssh cs15lwi23awo@ieng6.ucsd.edu ```
 
 ![img](https://cdn.discordapp.com/attachments/1064716019156930640/1084954193984487544/image.png)
 
